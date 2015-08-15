@@ -1,0 +1,17 @@
+
+
+.grid {
+  display: grid;
+  grid-columns: 100px 100px 100px 100px 100px;
+  grid-rows: auto 100px auto;
+  border: solid;
+  width: 600px;
+}
+
+
+.grid-element {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
