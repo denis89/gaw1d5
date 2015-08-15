@@ -1,5 +1,7 @@
-var grid_element = document.getElementsByClassName('grid-element');
 
-grid_element.addEventListener("click", function() {
-        console.log("Hello");
-        alert("Hello");});
+// JS on each Gameboard field.
+var grid = document.getElementsByClassName('grid');
+
+grid.addEventListener("click", function() {
+        document.getElementById("grid-element").innerHTML = "Hello World";});
+
